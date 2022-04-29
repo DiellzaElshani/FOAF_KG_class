@@ -1,0 +1,28 @@
+@base <people> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+@prefix exFelix: <https://github.com/DiellzaElshani/FOAF_KG_class/blob/main/22_04/felix.rdf>.
+@prefix exKaiyang: <https://github.com/DiellzaElshani/FOAF_KG_class/blob/main/22_04/Diellza.rdf>.
+@prefix exDiellza: <https://github.com/DiellzaElshani/FOAF_KG_class/blob/main/22_04/Diellza.rdf>.
+
+
+<exFelix:felix> rdf:type foaf:Person;
+    foaf:given "Felix";
+    foaf:FamilyName "Neubauer";
+    foaf:Organisation "Uni Stuttgart";
+    foaf:knows (exDiellza:Diellza exKaiyang:Kaiyang).
+
+
+
+<exFelix:felix> foaf:knows [].
+[] foaf:knows <exFelix:felix>.
+
+
+<exFelix:MasterThesis> rdf:type foaf:publication;
+    foaf:primaryTopic <exFelix:MyTopic>.
+<exFelix:MyTopic>rdf:type foaf:Thing;
+    foaf:isPrimaryTopicOf <exFelix:MasterThesis>.
+
+<exFelix:felix> foaf:currentProject <exFelix:MasterThesis>.
