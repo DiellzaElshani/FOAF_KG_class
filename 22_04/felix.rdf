@@ -3,8 +3,8 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 
-@prefix ex: <http://exampleFelix.com>.
-@prefix exKaiyang: <http://exampleKaiyang.com>.
+@prefix ex: <https://github.com/DiellzaElshani/FOAF_KG_class/blob/main/22_04/felix.rdf>.
+@prefix exKaiyang: <https://github.com/DiellzaElshani/FOAF_KG_class/blob/main/22_04/Diellza.txt>.
 @prefix exDiellza: <http://exampleDiellza.com>.
 
 
