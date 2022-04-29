@@ -1,0 +1,24 @@
+@base <>.
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#>  .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: 		<http://www.w3.org/2002/07/owl#> .
+@prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf: 	  <http://xmlns.com/foaf/0.1/> .
+
+
+@prefix exFelix: <https://github.com/DiellzaElshani/FOAF_KG_class/blob/main/22_04/felix.rdf>.
+@prefix exKaiyang: <https://github.com/DiellzaElshani/FOAF_KG_class/blob/main/22_04/kaiyang.rdf>.
+@prefix exDiellza: <https://github.com/DiellzaElshani/FOAF_KG_class/blob/main/22_04/Diellza.rdf>.
+
+
+
+exDiellza:Diellza rdf:type foaf:Person;
+     foaf:familyName "Elshani";
+     foaf:givenName "Diellza";
+     foaf:Organization  exDiellza:UniStuttgart;
+     foaf:knows (exFelix:Felix exKaiyang:Kaiyang);
+     foaf:CurrentProject [];
+     foaf:publications exDiellza:PhDThesis.
+exDiellza:PhDThesis rdf:type foaf:CreativeWork.
+exDiellza:PhDThesis foaf:primaryTopic exDiellza:KnowledgeGraphs.
+exDiellza:KnowledgeGraphs rdf:tpye owl:Class.
