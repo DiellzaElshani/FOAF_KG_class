@@ -6,19 +6,19 @@
 @prefix foaf: 	  <http://xmlns.com/foaf/0.1/> .
 
 
-@prefix ex: <https://github.com/DiellzaElshani/FOAF_KG_class/blob/main/22_04/felix.rdf>.
+@prefix exFelix: <https://github.com/DiellzaElshani/FOAF_KG_class/blob/main/22_04/felix.rdf>.
 @prefix exKaiyang: <https://github.com/DiellzaElshani/FOAF_KG_class/blob/main/22_04/kaiyang.rdf>.
 @prefix exDiellza: <https://github.com/DiellzaElshani/FOAF_KG_class/blob/main/22_04/Diellza.txt>.
 
 
 
-ex:Diellza rdf:type foaf:Person;
+exDiellza:Diellza rdf:type foaf:Person;
      foaf:familyName "Elshani";
      foaf:givenName "Diellza";
-     foaf:Organization  ex:UniStuttgart;
+     foaf:Organization  exDiellza:UniStuttgart;
      foaf:knows (ex:Felix ex:Kaiyang);
      foaf:CurrentProject [];
-     foaf:publications ex:PhDThesis.
-ex:PhDThesis rdf:type foaf:CreativeWork.
-ex:PhDThesis foaf:primaryTopic ex:KnowledgeGraphs.
-ex:KnowledgeGraphs rdf:tpye owl:Class.
+     foaf:publications exDiellza:PhDThesis.
+exDiellza:PhDThesis rdf:type foaf:CreativeWork.
+exDiellza:PhDThesis foaf:primaryTopic exDiellza:KnowledgeGraphs.
+exDiellza:KnowledgeGraphs rdf:tpye owl:Class.
