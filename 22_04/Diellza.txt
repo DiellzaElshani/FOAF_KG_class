@@ -1,0 +1,20 @@
+@base <>.
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#>  .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: 		<http://www.w3.org/2002/07/owl#> .
+@prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf: 	  <http://xmlns.com/foaf/0.1/> .
+@prefix ex: <file:///c:/Users/diels/Documents/KnowledgeGraphs/Tasks/Task1/>.
+
+
+
+ex:Diellza rdf:type foaf:Person;
+     foaf:familyName "Elshani";
+     foaf:givenName "Diellza";
+     foaf:Organization  ex:UniStuttgart;
+     foaf:knows (ex:Felix ex:Kaiyang);
+     foaf:CurrentProject [];
+     foaf:publications ex:PhDThesis.
+ex:PhDThesis rdf:type foaf:CreativeWork.
+ex:PhDThesis foaf:primaryTopic ex:KnowledgeGraphs.
+ex:KnowledgeGraphs rdf:tpye owl:Class.
