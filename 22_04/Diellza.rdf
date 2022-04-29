@@ -8,7 +8,7 @@
 
 @prefix exFelix: <https://github.com/DiellzaElshani/FOAF_KG_class/blob/main/22_04/felix.rdf>.
 @prefix exKaiyang: <https://github.com/DiellzaElshani/FOAF_KG_class/blob/main/22_04/kaiyang.rdf>.
-@prefix exDiellza: <https://github.com/DiellzaElshani/FOAF_KG_class/blob/main/22_04/Diellza.txt>.
+@prefix exDiellza: <https://github.com/DiellzaElshani/FOAF_KG_class/blob/main/22_04/Diellza.rdf>.
 
 
 
