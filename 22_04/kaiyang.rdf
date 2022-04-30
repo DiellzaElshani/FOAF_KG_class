@@ -1,0 +1,19 @@
+@base <Person> .
+
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdf:<http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs:<http://www.w3.org/2000/01/rdf-schema#>.
+@prefix exFelix: <https://github.com/DiellzaElshani/FOAF_KG_class/blob/main/22_04/felix.rdf>.
+@prefix exKaiyang: <https://github.com/DiellzaElshani/FOAF_KG_class/blob/main/22_04/kaiyang.rdf>.
+@prefix exDiellza: <https://github.com/DiellzaElshani/FOAF_KG_class/blob/main/22_04/Diellza.rdf>.
+
+exKaiyang:Kaiyang rdf:type foaf:Person;
+a foaf:Person;
+foaf:name"Kaiyang Zhu"; 
+foaf:familyName "Zhu";
+foaf:givenName "Kaiyang";
+foaf:email<allenalle0527@gmail.com>;
+foaf:Organization exKaiyang:UniStuttgart;
+foaf:knows[exFelix:Felix exDiellza:Diellza];
+foaf:CurrentProject [].
