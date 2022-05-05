@@ -1,4 +1,4 @@
-@base <Person> .
+@base <https://raw.githubusercontent.com/DiellzaElshani/FOAF_KG_class/main/22_04/kaiyang.rdf> .
 
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
