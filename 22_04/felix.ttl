@@ -7,18 +7,14 @@
 @prefix exKaiyang: <https://raw.githubusercontent.com/DiellzaElshani/FOAF_KG_class/blob/main/22_04/kaiyang.rdf> .
 @prefix exDiellza: <https://raw.githubusercontent.com/DiellzaElshani/FOAF_KG_class/main/22_04/Diellza.rdf> .
 
-
 <exFelix:felix> rdf:type foaf:Person ;
     foaf:given "Felix" ;
     foaf:FamilyName "Neubauer" ;
     foaf:Organisation "Uni Stuttgart" ;
     foaf:knows (exDiellza:Diellza exKaiyang:Kaiyang) .
 
-
-
 <exFelix:felix> foaf:knows [].
 [] foaf:knows <exFelix:felix>.
-
 
 <exFelix:MasterThesis> rdf:type foaf:publication;
     foaf:primaryTopic <exFelix:MyTopic>.
